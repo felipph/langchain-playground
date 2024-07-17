@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "langchain-udemy"
+version = "0.1.0"
+description = ""
+authors = ["Felipph Calado <luiz.calado@mpc.pa.gov.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.2.8"
+langchain-community = "^0.2.7"
+python-dotenv = "^1.0.1"
+langchain-groq = "^0.1.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
