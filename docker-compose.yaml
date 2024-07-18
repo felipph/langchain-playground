@@ -1,0 +1,12 @@
+services:
+  vectordb:
+    image: tensorchord/pgvecto-rs:pg16-v0.1.14-beta
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_DB: postgres
+    ports:
+      - 6024:5432
+
+
+#! docker run --name pgvecto-rs-demo -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d tensorchord/pgvecto-rs:latest

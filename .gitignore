@@ -1,2 +1,2 @@
-reActAgents/.env
+*/*.env
 .idea
