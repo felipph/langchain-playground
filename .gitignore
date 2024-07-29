@@ -1,2 +1,3 @@
 */*.env
 .idea
+vector-dbs/.env

@@ -7,6 +7,11 @@ services:
       POSTGRES_DB: postgres
     ports:
       - 6024:5432
+  qdrant:
+    image: qdrant/qdrant
+    ports:
+      - 6334:6334
+      - 6333:6333
 
-
+#qdrant/qdrant
 #! docker run --name pgvecto-rs-demo -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d tensorchord/pgvecto-rs:latest
